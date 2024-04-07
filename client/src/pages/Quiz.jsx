@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import {StellarSdk} from '@stellar/stellar-sdk'
-// var server = new StellarSdk.Server('https://horizon-testnet.stellar.org');
+import * as StellarSdk from "@stellar/stellar-sdk";
 
+
+console.log("step 1", StellarSdk);
 const Quiz = () => {
     const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
     const [answers, setAnswers] = useState(['', '', '']);

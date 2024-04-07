@@ -27,7 +27,7 @@ const App = () => {
               <Route path="/home" element={isLoogedIn ? <HomePage /> : <Navigate to="/login" />} />
               <Route path="/quiz" element={<Quiz />} />
             
-            </>}
+            </>}``
               
 
           </Routes>
