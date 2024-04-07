@@ -8,7 +8,7 @@ const LandingPage = () => {
     const navigate = useNavigate()
     return (
         <Box width="100%" height="100%" sx={{
-            backgroundImage: "url('../../public/yaksha.png')",
+            backgroundImage: "url('https://res.cloudinary.com/dlevbirqh/image/upload/v1712476521/Screenshot_2024-04-06_152729_brr7dd.png')",
             backgroundSize: "cover"
         }}>
             <Typography color="#ffffff" fontSize="5rem" 
